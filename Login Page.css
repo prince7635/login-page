@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins" ,sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background: url(login.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 350px;
+    background-color:transparent;
+    backdrop-filter: blur(22px);
+    border: solid 1px;/*we can also add colour here by this method rgba(221, 18, 221, 0.968);*/
+    color: white;
+    border-radius: 14px;
+    padding: 50px 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    user-select: none;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(22px);
+    border:none;
+    outline:none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 15px 10px 20px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+i{
+    position:absolute;
+    right: 30px;
+    bottom: 20%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content:space-between;
+    font-size: 14px;
+    margin: 15px 0 5px;
+}
+
+.remember-forgot label input{
+    accent-color:#4fd;
+    margin-left:5px;
+    width: 14px;
+    margin-right: 5px;
+}
+
+.rem{
+    display: inline;
+    user-select: none;
+}
+.remember-forgot a{
+    color:whitesmoke;
+    text-decoration: none ;
+    user-select: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(12, 231, 205, 0.792);
+    font-size: 18px;
+    border: none;
+    /* outline: none; */
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0 0 0 );
+    cursor: pointer;
+    color: brown;
+    font-weight:700;
+}
+
+.register-link{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-weight: bolder;
+
+}
